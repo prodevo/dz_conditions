@@ -52,3 +52,39 @@ elif a > 0:
     print('bilshe za nul')
 else:
     print('nul')
+
+#4.1
+a = int(input('chyslo: '))
+if a % 2 == 0:
+    print('parne')
+else:
+    print('neparne')
+
+#4.2
+a = int(input('chyslo: '))
+if a >= 0 and a <= 100:
+    print('nalezhyt')
+else:
+    print('ne nalezhyt')
+
+#4.3
+a = int(input('chyslo: '))
+if a % 3 == 0 and a % 5 == 0 and a % 7 == 0:
+    print('nalezhyt')
+else:
+    print('ne nalezhyt')
+#105 nalezhyt
+
+#4.4
+a = list(input('chyslo: '))
+if a[0] == a[-1] and a[1] == a[-2]:
+    print('chyslo - palendrom!')
+else:
+    print('chyslo ne palendrom!')
+
+#4.5
+a = float(input('chyslo: '))
+if a % 1 > 0:
+    print('mae drobovu chastynu')
+else:
+    print('ne mae drobovu chastynu!')
